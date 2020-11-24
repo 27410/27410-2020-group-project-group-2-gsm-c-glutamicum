@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/27410/[PUT-YOUR-REPOSITORY-HERE]/main)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/27410/[27410-2020-group-project-group-2-gsm-c-glutamicum]/main)
 
 # 27410 - Group assignment - Group 2 - Application of Genome Scale Modelling on C. glutamicum
 
@@ -14,6 +14,13 @@
 ## Project summary (<300 words)
 Describe the overall aim of your project and what you have achieved.
 
+The aim of this project is to 
+
+genome-scale metabolic models (GSMs).
+
 ## Project overview
 Describe how your project is organized ...
 
+The project can be viewed in the Report.ipynb notebook. This notebook contains an introduction to the project, including a literature review of the chosen compound and the potential chassis, respectively. It also contains a selection and assessement of the existing GSMs using MEM, and the application of computer-aided cell factory engineering
+
+ the GSM model and apply a number of strain design prediction algorithms
