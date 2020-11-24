@@ -16,7 +16,7 @@ The aim of this project is to design a cell factory for the production of putres
 
 The project considers the application of the following chassis: the gram-positive bacterium *Corynebacterium glutamicum* (*C. glutamicum*) and the gram-negative bacterium *Escherichia coli* (*E. coli*), which represent their respective advantages and disadvantages when applied as a cell factory. The decision was to utilize *E. coli* as the cell factory due to its more readily available GSM model.
 
-The chassis *E. coli* is a native producer of putrescine – but it only produces the compound in very limiting amounts. In order to improve the yield of putrescine in *E. coli*, we implemented a heterologous pathway consisting of a two-step reaction that requires the addition of two enzymes to the GSM model.
+The chassis *E. coli* is a native producer of putrescine – but it only produces the compound in very limited amounts. In order to improve the yield of putrescine in *E. coli*, we implemented two heterologous pathway consisting of two seperate one-step reaction, which required the addition of two enzymes to the GSM model.
 
 The maximum theoretical yield of putrescine in *E. coli* was 0.9565 mmol/mmol before implementation of the heterologous pathway, and 0.9929 mmol/mmol after its implementation. Thus, the implementation of the heterologous pathway yielded a 3.8% improvement on the maximum theoretical yield.
 
