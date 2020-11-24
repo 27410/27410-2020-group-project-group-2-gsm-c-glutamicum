@@ -12,8 +12,6 @@
 > Good luck!
 
 ## Project summary (<300 words)
-Describe the overall aim of your project and what you have achieved.
-
 The aim of this project is to design a cell factory for the production of putrescine, a four-carbon compound that is commonly used as a monomer to synthesize polymers. Putrescine is a useful chemical with a wide range of applications, ranging from the textile industry to the pharmaceutical sector. Today, putrescine is produced using chemical synthesis, but there is a rising demand for more sustainable production methods such as biobased manufacturing using living and growing cells.
 
 The project considers the application of the following chassis: the gram-positive bacterium Corynebacterium glutamicum (C. glutamicum) and the gram-negative bacterium Escherichia coli (E. coli), which represent their respective advantages and disadvantages when applied as a cell factory. The decision was to use E. coli as the cell factory due to its more readily available GSM model.
@@ -25,11 +23,9 @@ The maximum theoretical yield of putrescine in E. coli was 0.9565 mmol/mmol befo
 In order to investigate the production of putrescine in E. coli, we used tools such as phenotypic phase plans (PPPs) and dynamic flux balance analysis (dFBA). Furthermore, in order to improve the productivity of putrescine in E. coli, we used algorithms such as OptKnock. All in all, there is more to be done in terms of modeling in order to make it feasible to use E. coli as a cell factory for the production of putrescine.
 
 ## Project overview
-Describe how your project is organized ...
+The project can be viewed in the [Report.ipynb](https://github.com/27410/27410-2020-group-project-group-2-gsm-c-glutamicum/blob/main/Report.ipynb) notebook. This notebook contains an introduction to the project including a literature review of the chosen compound and the potential chassis, respectively. It also contains a selection and assessment of the existing GSMs using MEMOTE, an open-source software containing a standardized set of metabolic model tests ([0.memote.ipynb](https://github.com/27410/27410-2020-group-project-group-2-gsm-c-glutamicum/blob/main/0.memote.ipynb)).
 
-The project can be viewed in the [Report.ipynb](https://github.com/27410/27410-2020-group-project-group-2-gsm-c-glutamicum/blob/main/Report.ipynb) notebook. This notebook contains an introduction to the project including a literature review of the chosen compound and the potential chassis, respectively. It also contains a selection and assessement of the existing GSMs using MEMOTE, an open-source software containing a standardized set of metabolic model tests ([0.memote.ipynb](https://github.com/27410/27410-2020-group-project-group-2-gsm-c-glutamicum/blob/main/0.memote.ipynb)).
-
-In the project, the compound of interest is implemented in two potential chassis, i.e. C. glutamicum ([1.Cglutamicum_model.ipynb](https://github.com/27410/27410-2020-group-project-group-2-gsm-c-glutamicum/blob/main/1.Cglutamicum_model.ipynb)) and E. coli ([2.Ecoli_model.ipynb](https://github.com/27410/27410-2020-group-project-group-2-gsm-c-glutamicum/blob/main/2.Ecoli_model.ipynb)). Considering the selection and assessement of the existing GSMs, the proceeding work focused on the implementation of a heterologous pathway in the GSM model for E. coli.
+In the project, the compound of interest is implemented in two potential chassis, i.e. C. glutamicum ([1.Cglutamicum_model.ipynb](https://github.com/27410/27410-2020-group-project-group-2-gsm-c-glutamicum/blob/main/1.Cglutamicum_model.ipynb)) and E. coli ([2.Ecoli_model.ipynb](https://github.com/27410/27410-2020-group-project-group-2-gsm-c-glutamicum/blob/main/2.Ecoli_model.ipynb)). Considering the selection and assessment of the existing GSMs, the proceeding work focused on the implementation of a heterologous pathway in the GSM model for E. coli.
 
 The main content of the [Report.ipynb](https://github.com/27410/27410-2020-group-project-group-2-gsm-c-glutamicum/blob/main/Report.ipynb) notebook concerns the application of computer-aided cell factory engineering to the GSM model:
 
