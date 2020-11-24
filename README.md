@@ -21,6 +21,10 @@ genome-scale metabolic models (GSMs).
 ## Project overview
 Describe how your project is organized ...
 
-The project can be viewed in the Report.ipynb notebook. This notebook contains an introduction to the project, including a literature review of the chosen compound and the potential chassis, respectively. It also contains a selection and assessement of the existing GSMs using MEM, and the application of computer-aided cell factory engineering
+The project can be viewed in the Report.ipynb notebook. This notebook contains an introduction to the project, including a literature review of the chosen compound and the potential chassis, respectively. It also contains a selection and assessement of the existing GSMs using MEMOTE, an open-source software containing a standardized set of metabolic model tests. The application of computer-aided cell factory engineering
+
+\item Hello
+
+* Hello
 
  the GSM model and apply a number of strain design prediction algorithms
