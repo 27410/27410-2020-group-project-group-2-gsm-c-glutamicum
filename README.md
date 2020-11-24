@@ -14,8 +14,7 @@
 ## Project summary (<300 words)
 Describe the overall aim of your project and what you have achieved.
 
-The aim of this project is to design a cell factory for the production of putrescine, a four-carbon compound that is used as a monomer in the 
-
+The aim of this project is to design a cell factory for the production of putrescine, a four-carbon compound that is used as a monomer to produce polymers that have applications in industries ranging from textiles to medicines. The production of putrescine is currently done by chemical synthesis but there is an increasing environmental and economical interest in 
 
 The project considers the application of the following chassis: the gram-positive bacterium Corynebacterium glutamicum (C. glutamicum) and the gram-negative bacterium Escherichia coli (E. coli), which represent their respective advantages and disadvantages when applied as a cell factory.
 
