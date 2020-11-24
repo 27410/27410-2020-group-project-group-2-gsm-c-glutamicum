@@ -14,7 +14,7 @@
 ## Project summary (<300 words)
 The aim of this project is to design a cell factory for the production of putrescine, a four-carbon compound that is commonly used as a monomer to synthesize polymers. Putrescine is a useful chemical with a wide range of applications, ranging from the textile industry to the pharmaceutical sector. Today, putrescine is produced using chemical synthesis, but there is a rising demand for more sustainable production methods such as biobased manufacturing using living and growing cells.
 
-The project considers the application of the following chassis: the gram-positive bacterium Corynebacterium glutamicum (C. glutamicum) and the gram-negative bacterium Escherichia coli (E. coli), which represent their respective advantages and disadvantages when applied as a cell factory. The decision was to use E. coli as the cell factory due to its more readily available GSM model.
+The project considers the application of the following chassis: the gram-positive bacterium Corynebacterium glutamicum (C. glutamicum) and the gram-negative bacterium Escherichia coli (E. coli), which represent their respective advantages and disadvantages when applied as a cell factory. The decision was to utilize E. coli as the cell factory due to its more readily available GSM model.
 
 The chassis E. coli is a native producer of putrescine – but it only produces the compound in very limiting amounts. In order to improve the yield of putrescine in E. coli, we implemented a heterologous pathway consisting of a two-step reaction that requires the addition of two enzymes to the GSM model.
 
