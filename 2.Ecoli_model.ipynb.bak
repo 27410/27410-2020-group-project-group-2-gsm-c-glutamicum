@@ -723,6 +723,25 @@
   },
   {
    "cell_type": "code",
+   "execution_count": 58,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "45.78742857142842\n"
+     ]
+    }
+   ],
+   "source": [
+    "with model:\n",
+    "    model.objective = model.reactions.ORNDC\n",
+    "    print(model.optimize().objective_value)  # We produce Purtescine"
+   ]
+  },
+  {
+   "cell_type": "code",
    "execution_count": 59,
    "metadata": {},
    "outputs": [
@@ -744,7 +763,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "We see that the production rate of putrescine increases from 9.56 to 9.93."
+    "We see that the production rate of putrescine increases from 41.09 to 45.79"
    ]
   },
   {
@@ -920,13 +939,6 @@
    ]
   },
   {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "`<<<<<<< HEAD`"
-   ]
-  },
-  {
    "cell_type": "code",
    "execution_count": 67,
    "metadata": {},
@@ -944,39 +956,33 @@
     "    model.objective = model.reactions.EX_ptrc_e\n",
     "    print(model.optimize().objective_value) # We produce"
    ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "We see that the production rate of putrescine does not change from the addition of this enzyme. "
-   ]
+<<<<<<< HEAD
   },
   {
    "cell_type": "code",
-   "execution_count": 71,
+   "execution_count": 68,
    "metadata": {},
    "outputs": [
     {
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "9.564770642201818\n"
+      "10.070857142857145\n"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "cobra/util/solver.py:416 \u001b[1;31mUserWarning\u001b[0m: solver status is 'infeasible'\n"
      ]
     }
    ],
    "source": [
     "with model:\n",
-    "    model.reactions.OAT.bounds = 0,0\n",
+    "    model.reactions.EX_ptrc_e.lower_bound = 20\n",
     "    model.objective = model.reactions.EX_ptrc_e\n",
     "    print(model.optimize().objective_value) # We produce"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "We tested what the change in production is without the enzyme ornithine aminotransferase and see that it goes back to 9.56. Therefore, the enzyme L-arginine amidinohydrolase does not make a difference."
    ]
   },
   {
@@ -985,6 +991,15 @@
    "metadata": {},
    "outputs": [],
    "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+=======
+>>>>>>> 69ff1c730afb1d45b14028bd31f4ee2392717da8
   }
  ],
  "metadata": {
