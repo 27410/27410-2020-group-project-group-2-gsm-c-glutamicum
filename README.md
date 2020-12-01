@@ -32,4 +32,7 @@ For the GSM model, there have also been applied a number of strain design predic
 
 * Application of heterologous pathways prediction ([7.Ecoli_predicting_heterologous_pathways.ipynb](https://github.com/27410/27410-2020-group-project-group-2-gsm-c-glutamicum/blob/main/7.Ecoli_predicting_heterologous_pathways.ipynb)).
 
+For further work with the GSM model, options for overexpression of key reactions have been explored:
+* Application of overexpression of target reaction ([8.Ecoli_overexpress.ipynb](https://github.com/27410/27410-2020-group-project-group-2-gsm-c-glutamicum/blob/main/8.Ecoli_overexpress.ipynb)).
+
 Furthermore, the [Report.ipynb](https://github.com/27410/27410-2020-group-project-group-2-gsm-c-glutamicum/blob/main/Report.ipynb) notebook contains a discussion regarding the results of the applied computer-aided cell factory engineering, and a conclusion.
