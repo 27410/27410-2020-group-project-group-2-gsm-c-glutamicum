@@ -111,7 +111,7 @@ pycosat==0.6.3
 pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1593275161868/work
 pycurl==7.43.0.5
 pydantic==1.7.2
-Pygments==2.6.1
+Pygments==2.7.4
 PyJWT==1.7.1
 pyOpenSSL==19.1.0
 pyparsing==2.4.7
