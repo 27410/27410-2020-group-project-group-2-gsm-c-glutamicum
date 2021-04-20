@@ -106,7 +106,7 @@ prompt-toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolki
 protobuf==3.12.4
 psutil @ file:///home/conda/feedstock_root/build_artifacts/psutil_1594826931824/work
 ptyprocess==0.6.0
-py==1.9.0
+py==1.10.0
 pycosat==0.6.3
 pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1593275161868/work
 pycurl==7.43.0.5
