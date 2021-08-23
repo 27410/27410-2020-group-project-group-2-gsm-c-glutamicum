@@ -66,7 +66,7 @@ jupyter-client @ file:///home/conda/feedstock_root/build_artifacts/jupyter_clien
 jupyter-core==4.6.3
 jupyter-telemetry==0.0.5
 jupyterhub @ file:///home/conda/feedstock_root/build_artifacts/jupyterhub-feedstock_1597233557917/work
-jupyterlab==2.2.5
+jupyterlab==2.2.10
 jupyterlab-server @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_server_1593951277307/work
 kiwisolver==1.2.0
 llvmlite==0.31.0
