@@ -45,7 +45,7 @@ h11==0.11.0
 h5py @ file:///home/conda/feedstock_root/build_artifacts/h5py_1595110170499/work
 HeapDict==1.0.1
 httpcore==0.12.2
-httpx==0.16.1
+httpx==0.23.0
 idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1593328102638/work
 imagecodecs @ file:///home/conda/feedstock_root/build_artifacts/imagecodecs_1593295474952/work
 imageio @ file:///home/conda/feedstock_root/build_artifacts/imageio_1594044661732/work
