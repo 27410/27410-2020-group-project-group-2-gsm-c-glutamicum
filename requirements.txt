@@ -78,7 +78,7 @@ mistune==0.8.4
 mock @ file:///home/conda/feedstock_root/build_artifacts/mock_1588618856961/work
 mpmath==1.1.0
 msgpack==1.0.0
-nbconvert==5.6.1
+nbconvert==6.3.0
 nbdime==2.1.0
 nbformat @ file:///home/conda/feedstock_root/build_artifacts/nbformat_1594060262917/work
 networkx @ file:///home/conda/feedstock_root/build_artifacts/networkx_1598210780226/work
